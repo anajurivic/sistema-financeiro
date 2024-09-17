@@ -1,0 +1,33 @@
+form{
+    margin-top: 30%;
+    text-align: left;
+}
+ 
+.fa-solid{
+    font-size: 100px;
+    color:  #55c7ae;
+}
+ 
+body{
+    background-color: #55c7ae;
+}
+
+.form-label{
+    color: #ffffff;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+ 
+.btn{
+    width: 40%;
+    background-color: #579688;
+    border-color: #579688;
+}
+
+.button{
+    text-align: center;
+    margin-top: 30px;
+}
+.img_cad{
+    margin-top: 80px
+}
