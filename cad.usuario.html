@@ -22,26 +22,26 @@
               </div>
               <div class="col-sm-12 col-md-4" style="margin-top: 10%;">
 
-                <form>
+                <form action="php/insert_usuario.php" method="post">
                     <div class="mb-3">
                       <label for="exampleInputEmail1" class="form-label left">Nome</label>
-                      <input type="text" class="form-control" id="nome" aria-describedby="nome">
+                      <input type="text" class="form-control" name="nome" id="nome" aria-describedby="nome">
                     </div>
                     <div class="mb-3">
                       <label for="exampleInputPassword1" class="form-label left">Email</label>
-                      <input type="email" class="form-control" id="email" aria-describedby="email">
+                      <input type="email" class="form-control" name="email" id="email" aria-describedby="email">
                     </div>
                     <div class="mb-3">
                         <label for="exampleInputEmail1" class="form-label left">Cargo</label>
-                        <input type="text" class="form-control" id="cargo" aria-describedby="cargo">
+                        <input type="text" class="form-control" name="cargo" id="cargo" aria-describedby="cargo">
                       </div>
                     <div class="mb-3">
                         <label for="exampleInputEmail1" class="form-label left">Senha</label>
-                        <input type="password" class="form-control" id="senha" aria-describedby="senha">
+                        <input type="password" class="form-control" name="senha" id="senha" aria-describedby="senha">
                       </div>
                       <div class="button">
                     <button type="submit" class="btn btn-primary">Entrar</button>
-                    <a href="index.html" type="submit" class="btn btn-primary">Cadastrar</a>
+                    <a href="index.html" class="btn btn-primary">Cadastrar</a>
                 </div>
                   </form>
                 </div>

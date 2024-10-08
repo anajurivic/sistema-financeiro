@@ -5,11 +5,11 @@ form{
  
 .fa-solid{
     font-size: 100px;
-    color:  #55c7ae;
+    color:  #5570c7;
 }
  
 body{
-    background-color: #55c7ae;
+    background-color: #5570c7;
 }
 
 .form-label{
@@ -20,8 +20,8 @@ body{
  
 .btn{
     width: 40%;
-    background-color: #579688;
-    border-color: #579688;
+    background-color: #5570c7;
+    border-color: #000000;
 }
 
 .button{
