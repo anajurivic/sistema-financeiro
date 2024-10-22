@@ -13,7 +13,7 @@ $senha = $_POST['senha'];
 $sql = "INSERT INTO tb_user VALUES (null, '$nome','$email','$cargo','$senha')";
  
 if ($conexao->query($sql)) {
-    echo "<script>alert('Inserido com Sucesso!'; history.back())<script>";
+    echo "<script>alert('Inserido com Sucesso!'; history.back() </script>";
 }else{
     echo "Falha na conexão com banco de dados";
 }
